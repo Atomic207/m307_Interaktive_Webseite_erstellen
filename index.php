@@ -12,7 +12,7 @@
         <input type="vorname" name="vorname" id="vorname"><br>
         <label for="nachname">Nachname</label><br>
         <input type="nachname" name="nachname" id="nachname"><br>
-        <div class="dropdown">
+    
 
         
         <input type="submit" value="Senden">
