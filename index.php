@@ -7,6 +7,10 @@
 </head>
 <body>
     <h2>Anmeldung</h2>
+    <label for="vorname">Vorname</label><br>
+    <input type="vorname" name="vorname" id="vorname"><br>
+     <label for="nachname">Nachname</label><br>
+     <input type="nachname" name="nachname" id="nachname"><br>   
     <label for="lehrgang">Lehrgang:</label> 
     <select name="lehrgang" id="lehrgang"> 
         <option value="2021">2021</option> 
