@@ -7,14 +7,14 @@
 </head>
 <body>
     <h2>Anmeldung</h2>
-    <form action="index-save.php" method="post">
-        <label for="vorname">Vorname</label><br>
-        <input type="vorname" name="vorname" id="vorname"><br>
-        <label for="nachname">Nachname</label><br>
-        <input type="nachname" name="nachname" id="nachname"><br>
-        <div class="dropdown">
+    <label for="dog-names">Choose a dog name:</label> 
+    <select name="dog-names" id="dog-names"> 
+        <option value="rigatoni">Rigatoni</option> 
+        <option value="dave">Dave</option> 
+        <option value="pumpernickel">Pumpernickel</option> 
+        <option value="reeses">Reeses</option> 
+    </select>
 
-        
         <input type="submit" value="Senden">
     </form>
 </body>
