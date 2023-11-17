@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team und Rollen</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
 <div>
@@ -28,11 +29,14 @@
 </div>
 
 <div>
-<input type="checkbox" class="radio" value="1" name="geschlecht" />Männlich</label> <br>
-  <label>
-    <input type="checkbox" class="radio" value="1" name="geschlecht" />Weiblich</label> <br>
-  <label>
-    <input type="checkbox" class="radio" value="1" name="geschlecht" />Divers</label> <br>
+<input type="radio" name="geschlecht" id="firmenkunde" value="firmenkunde" />
+      <label for="firmenkunde"><i>Firmenkunde</i></label><br />
+      <input type="radio" name="kundenklasse" id="einzelperson" value="einzelperson" />
+      <label for="einzelperson"><i>Einzelperson</i></label><br />
+      <input type="radio" name="kundenklasse" id="partner" value="partner" />
+      <label for="partner"><i>Partner</i></label><br />
+      <input type="radio" name="kundenklasse" id="bljs" value="bljs" />
+      <label for="bljs"><i>Betriebslehrjahrstelle</i></label><br>
 </div>
         <input type="submit" value="Senden">
     </form>
