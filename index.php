@@ -26,16 +26,28 @@
             <option value="2022">2022</option>
             <option value="2023">2023</option>
             <option value="2024">2024</option>
-        </select><br><br>
+        </select>
+        
+        
+        <br><br>
 
         <input type="radio" name="geschlecht" id="firmenkunde" value="firmenkunde" />
-        <label for="firmenkunde"><i>Firmenkunde</i></label><br />
+        <label for="firmenkunde"><i>Firmenkunde</i></label>
+        <br/>
         <input type="radio" name="kundenklasse" id="einzelperson" value="einzelperson" />
-        <label for="einzelperson"><i>Einzelperson</i></label><br />
+        <label for="einzelperson"><i>Einzelperson</i></label>
+        <br>
         <input type="radio" name="kundenklasse" id="partner" value="partner" />
-        <label for="partner"><i>Partner</i></label><br />
+        <label for="partner"><i>Partner</i></label>
+        <br>
         <input type="radio" name="kundenklasse" id="bljs" value="bljs" />
-        <label for="bljs"><i>Betriebslehrjahrstelle</i></label><br>
+        <label for="bljs"><i>Betriebslehrjahrstelle</i></label>
+        
+        
+        <br>
+
+
+
 <a href="tabelle.php">
         <input type="submit" value="Senden" class="full-width green-bg">
         </a>
