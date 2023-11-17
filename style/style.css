@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Intro-GeomanistBlack';
+    src: url('Assets\Fonts\Geomanist-Black#2.otf') format('otf'), 
+         url('Assets\Fonts\INTRO LIGHT.otf') format('otf'); /* Fallback für ältere Browser */
+    /* Füge hier weitere Formate hinzu, wenn nötig (z. B. .ttf, .otf) */
+    /* Passe die Pfade entsprechend an */
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, html {
   height: 100%;
   display: flex;
@@ -5,6 +15,9 @@ body, html {
   align-items: center;
 }
 
+h2{
+
+}
 input, select {
     background-color: white;
     border: 2px solid #aaffaa;
