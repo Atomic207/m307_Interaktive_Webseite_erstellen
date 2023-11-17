@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        
+   
         <h2>Anmeldung</h2>
         <label for="vorname">Vorname:</label>
         <input type="text" name="vorname" id="vorname" placeholder="Vorname" class="full-width"><br>
