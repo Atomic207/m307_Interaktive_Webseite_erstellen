@@ -36,8 +36,9 @@
         <label for="partner"><i>Partner</i></label><br />
         <input type="radio" name="kundenklasse" id="bljs" value="bljs" />
         <label for="bljs"><i>Betriebslehrjahrstelle</i></label><br>
+<a href="tabelle.php">
         <input type="submit" value="Senden" class="full-width green-bg">
-
+        </a>
     </div>
 </body>
 

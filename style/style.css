@@ -1,6 +1,5 @@
 body, html {
   height: 100%;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +9,6 @@ input, select {
     background-color: white;
     border: 2px solid #aaffaa;
 }
-
-
 
 .container {
   width: 80%; 
