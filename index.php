@@ -19,7 +19,7 @@
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" placeholder="Email" class="full-width"><br>
         <label for="lehrgang">Lehrgang:</label>
-
+    
         <select name="lehrgang" id="lehrgang" class="full-width">
             <option value="Lehrgang">Lehrgang</option>
             <option value="2021">2021</option>

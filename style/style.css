@@ -6,8 +6,16 @@ body, html {
   align-items: center;
 }
 
+input, select {
+    background-color: white;
+    border: 2px solid #aaffaa;
+}
+
+
+
 .container {
-  width: 70%; 
+  width: 80%; 
+  max-width: 10000px;
   margin: auto;
   background-color: white;
   border: 2px solid #aaffaa;
