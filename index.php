@@ -21,7 +21,7 @@
         <label for="lehrgang">Lehrgang:</label>
     
         <select name="lehrgang" id="lehrgang" class="full-width">
-            <option value="Lehrgang">Lehrgang</option>
+            <option value="Lehrgang">-</option>
             <option value="2021">2021</option>
             <option value="2022">2022</option>
             <option value="2023">2023</option>
