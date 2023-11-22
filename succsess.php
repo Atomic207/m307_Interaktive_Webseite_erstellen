@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sucsess</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
  <div class="container">
@@ -11,7 +12,7 @@
         <input type="submit" value="Einen weiteren LB hinzufügen" class="full-width green-bg">
         </a>
         <a href="index.php">
-            <input type="submit" value="Einen weiteren LB hinzufügen" class="full-width green-bg">
+            <input type="submit" value="Zurück zur Tabelle" class="full-width green-bg">
             </a>
 </body>
 </html>
