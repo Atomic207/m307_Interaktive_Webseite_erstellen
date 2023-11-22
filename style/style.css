@@ -28,7 +28,7 @@ font-family: 'GeomanistBlack';
 }
 input, select {
     background-color: white;
-    border: 2px solid #aaffaa;
+    border: 2px solid #8CBF35;
 }
 
 .container {
@@ -36,8 +36,7 @@ input, select {
   max-width: 10000px;
   margin: auto;
   background-color: white;
-  border: 2px solid #aaffaa;
-  border-radius: 15px; 
+  border: 2px solid #8CBF35;
   padding: 30px;
 }
 
@@ -47,11 +46,11 @@ input, select {
 }
 
 .green-border {
-  border: 2px solid #aaffaa; 
+  border: 2px solid #8CBF35; 
 }
 
 .green-bg {
-  background-color: #aaffaa; 
+  background-color: #8CBF35; 
   color: white;
   border: none; 
   padding: 10px; 
