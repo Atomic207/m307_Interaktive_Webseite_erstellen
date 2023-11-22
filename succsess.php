@@ -8,6 +8,7 @@
 </head>
 <body>
  <div class="container">
+    <h2>LP wurde erfolgreich hinzugefügt!</h2>
     <a href="addnew.php">
         <input type="submit" value="Einen weiteren LB hinzufügen" class="full-width green-border">
         </a>
