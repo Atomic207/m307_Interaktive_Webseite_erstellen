@@ -7,8 +7,11 @@
 </head>
 <body>
  <div class="container">
-    <a href="index.php">
+    <a href="addnew.php">
         <input type="submit" value="Einen weiteren LB hinzufügen" class="full-width green-bg">
         </a>
+        <a href="index.php">
+            <input type="submit" value="Einen weiteren LB hinzufügen" class="full-width green-bg">
+            </a>
 </body>
 </html>
