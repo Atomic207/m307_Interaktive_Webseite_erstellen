@@ -1,17 +1,16 @@
 @font-face {
-    font-family: 'GeomanistBlack';
+    font-family: "GeomanistBlack";
     src:
-    local("GeomanistBlack"),
-    url('Assets\Fonts\Geomanist-Black#2.otf') format('otf'), 
-    url('Assets\Fonts\INTRO LIGHT.otf') format('otf'); 
+    url("Assets/Geomanist-Black#2.otf") format("opentype");
+    
 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'IntroLight';
-    src: url('Assets\Fonts\INTRO LIGHT.otf') format('otf'); 
+    font-family: "IntroLight";
+    src: url('Assets/INTRO\ LIGHT.OTF') format("opentype"); 
 
     font-weight: normal;
     font-style: normal;
