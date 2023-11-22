@@ -8,11 +8,12 @@
 </head>
 <body>
  <div class="container">
+    <h2>LP wurde erfolgreich hinzugefügt!</h2>
     <a href="addnew.php">
-        <input type="submit" value="Einen weiteren LB hinzufügen" class="full-width green-bg">
+        <input type="submit" value="Einen weiteren LB hinzufügen" class="full-width green-border">
         </a>
         <a href="index.php">
-            <input type="submit" value="Zurück zur Tabelle" class="full-width green-bg">
+            <input type="submit" value="Zurück zur Tabelle" class="full-width green-border">
             </a>
 </body>
 </html>
