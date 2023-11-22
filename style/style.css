@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'GeomanistBlack';
-    src: url('Assets\Fonts\Geomanist-Black#2.otf') format('otf'), 
-         url('Assets\Fonts\INTRO LIGHT.otf') format('otf'); 
+    src:
+    local("GeomanistBlack"),
+    url('Assets\Fonts\Geomanist-Black#2.otf') format('otf'), 
+    url('Assets\Fonts\INTRO LIGHT.otf') format('otf'); 
 
     font-weight: normal;
     font-style: normal;
