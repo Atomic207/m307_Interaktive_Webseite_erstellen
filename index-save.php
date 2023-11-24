@@ -28,10 +28,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         "email" => $email,
         "lehrgang" => $lehrgang
     ]);
-    $kommentar_id = $db-> lastInsertId();
+    $m_id = $db-> lastInsertId();
     /*resultat ausgeben*/
     if($result){
-        header("Location: succsess.php?kommentar-id=$kommentar_id");
+        header("Location: succsess.php?m-id=$m_id");
     }
         
     else{

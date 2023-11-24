@@ -1,3 +1,7 @@
+<?php
+$mid = $_GET['m_id'];
+$sql = "SELECT * FROM `team-rollen` WHERE ID=$mid";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
