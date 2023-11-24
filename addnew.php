@@ -30,22 +30,6 @@
             </select>
 
 
-            <br><br>
-
-            <input type="radio" name="geschlecht" id="firmenkunde" value="firmenkunde" />
-            <label for="firmenkunde"><i>Firmenkunde</i></label>
-            <br>
-            <input type="radio" name="kundenklasse" id="einzelperson" value="einzelperson" />
-            <label for="einzelperson"><i>Einzelperson</i></label>
-            <br>
-            <input type="radio" name="kundenklasse" id="partner" value="partner" />
-            <label for="partner"><i>Partner</i></label>
-            <br>
-            <input type="radio" name="kundenklasse" id="bljs" value="bljs" />
-            <label for="bljs"><i>Betriebslehrjahrstelle</i></label>
-
-            <br>
-
 
             <input type="submit" value="Senden" class="full-width green-bg">
         </form>
