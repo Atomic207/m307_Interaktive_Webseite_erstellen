@@ -33,7 +33,7 @@
 
         <input type="radio" name="geschlecht" id="firmenkunde" value="firmenkunde" />
         <label for="firmenkunde"><i>Firmenkunde</i></label>
-        <br/>
+        <br>
         <input type="radio" name="kundenklasse" id="einzelperson" value="einzelperson" />
         <label for="einzelperson"><i>Einzelperson</i></label>
         <br>
