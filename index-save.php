@@ -8,8 +8,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     /*db verbinden*/
     $server ='localhost';
     $dbname = 'praxisarbeit';
-    $dbuser = 'm307';
-    $dbpass = 'm307';
+    $dbuser = 'root';
+    $dbpass = '';
 
     $db = new PDO(
         "mysql:dbname=$dbname;host=$server",
