@@ -31,7 +31,7 @@
         
         <br><br>
 
-        <input type="radio" name="geschlecht" id="firmenkunde" value="firmenkunde" />
+        <input type="radio" name="kundenklasse" id="firmenkunde" value="firmenkunde" />
         <label for="firmenkunde"><i>Firmenkunde</i></label>
         <br>
         <input type="radio" name="kundenklasse" id="einzelperson" value="einzelperson" />
@@ -42,7 +42,6 @@
         <br>
         <input type="radio" name="kundenklasse" id="bljs" value="bljs" />
         <label for="bljs"><i>Betriebslehrjahrstelle</i></label>
-        
         <br>
 
 <a href="succsess.php">

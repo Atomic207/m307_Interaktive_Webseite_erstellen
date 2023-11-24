@@ -1,21 +1,20 @@
 @font-face {
-    font-family: "GeomanistBlack";
-    src:
-    url("Assets/Geomanist-Black#2.otf") format("opentype");
-    
-
-    font-weight: normal;
-    font-style: normal;
+  font-family: "GeomanistBlack";
+  src: url(/Assets/geomanist.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "IntroLight";
-    src: url('Assets/INTRO\ LIGHT.OTF') format("opentype"); 
-
-    font-weight: normal;
-    font-style: normal;
+  font-family: "IntroLight";
+  src: url(/Assets/introlight.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
+h2 {
+  font-family: 'GeomanistBlack',
+}
 
 body, html {
   height: 100%;
@@ -24,9 +23,7 @@ body, html {
   align-items: center;
 }
 
-h2{
-font-family: 'GeomanistBlack';
-}
+
 input, select {
     background-color: white;
     border: 2px solid #8CBF35;
