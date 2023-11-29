@@ -1,12 +1,12 @@
 <?php
-$nachname = $_POST['nachname'] ??'';
-$vorname = $_POST['vorname'] ??'';
-$email = $_POST['email'] ??'';
-$lehrgang = $_POST['lehrgang'] ??'';
+$nachname = $_POST['nachname'] ?? '';
+$vorname = $_POST['vorname'] ?? '';
+$email = $_POST['email'] ?? '';
+$lehrgang = $_POST['lehrgang'] ?? '';
 
-if($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     /*db verbinden*/
-    $server ='localhost';
+    $server = 'localhost';
     $dbname = 'praxisarbeit';
     $dbuser = 'root';
     $dbpass = '';
@@ -18,28 +18,26 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     );
 
     /*sql befehl vorbereiten*/
-    $sql = "INSERT INTO `team-rollen` (`ID`, `Nachname`, `Vorname`, `email`, `Lehrbeginn`) VALUES (NULL, ':nachname', ':vorname', ':email', ':lehrgang')";
-    $stmt = $db -> prepare($sql);
+    $sql = "INSERT INTO `team-rollen` (`ID`, `Nachname`, `Vorname`, `email`, `Lehrgang`) VALUES (NULL, :nachname, :vorname, :email, :lehrgang)";
+    $stmt = $db->prepare($sql);
 
     /*sql befehl ausführen*/
-    $result = $stmt -> execute([
-        "nachname" => $vorname,
-        "vorname" => $nachname,
+    $result = $stmt->execute([
+        "nachname" => $nachname,
+        "vorname" => $vorname,
         "email" => $email,
         "lehrgang" => $lehrgang
     ]);
-    $m_id = $db-> lastInsertId();
+    $m_id = $db->lastInsertId();
     /*resultat ausgeben*/
-    if($result){
+    if ($result) {
         header("Location: succsess.php?m-id=$m_id");
-    }
-        
-    else{
+    } else {
         header("Location: index.php");
     }
-}
-else{
+} else {
     header("Location: addnew.php");
 }
 ?>
+
 
