@@ -13,17 +13,15 @@ $m_id = $_GET['m-id'];
         $dbpass
     );
 
-$sql = "SELECT *  FROM `team-rollen` WHERE `id` = 8;";
-$db-> prepare($sql );
-
+$sql = "SELECT *  FROM `team-rollen` WHERE `id` = ?;";
 $stmt = $db->prepare($sql);
 $stmt->execute([$m_id]);
 
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
-$nachname = $row['nachname'];
-$vorname = $row ['vorname'];
+$nachname = $row['Nachname'];
+$vorname = $row ['Vorname'];
 $email = $row ['email'];
-$lehrgang = $row ['lehrgang'];
+$lehrbeginn = $row ['Lehrbeginn'];
 
 ?>
 
