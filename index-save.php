@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         "email" => $email,
         "lehrgang" => $lehrgang
     ]);
-    $m_id = $db->lastInsertId();
+    $m_id = $db->lastInsertId(); 
     /*resultat ausgeben*/
     if ($result) {
         header("Location: succsess.php?m-id=$m_id");
