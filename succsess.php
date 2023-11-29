@@ -2,6 +2,37 @@
 $mid = $_GET['m_id'];
 $sql = "SELECT * FROM `team-rollen` WHERE ID=$mid";
 ?>
+
+<?php
+$kommentar_id = $_GET['kommentar-id'];
+
+    /*db verbinden*/
+    $server ='localhost';
+    $dbname = 'praxisarbeit';
+    $dbuser = 'root';
+    $dbpass = '';
+
+    $db = new PDO(
+        "mysql:dbname=$dbname;host=$server",
+        $dbuser,
+        $dbpass
+    );
+
+$sql = "SELECT *  FROM `team-rollen` WHERE `id` = 8;";
+$db-> prepare($sql );
+
+$stmt = $db->prepare($sql);
+$stmt->execute([$m_id]);
+
+$row = $stmt->fetch(PDO::FETCH_ASSOC);
+$nachname = $row['nachname'];
+$vorname = $row ['vorname'];
+$email = $row ['emial'];
+$lehrgang = $row ['lehrgang'];
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
