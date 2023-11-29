@@ -29,9 +29,10 @@
                 <option value="2024">2024</option>
             </select>
 
-
+<a href=addnew.php>
 
             <input type="submit" value="Senden" class="full-width green-bg">
+</a>
         </form>
     </div>
 
