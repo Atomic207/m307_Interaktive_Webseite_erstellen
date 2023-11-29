@@ -1,10 +1,5 @@
 <?php
-$mid = $_GET['m_id'];
-$sql = "SELECT * FROM `team-rollen` WHERE ID=$mid";
-?>
-
-<?php
-$kommentar_id = $_GET['kommentar-id'];
+$m_id = $_GET['m-id'];
 
     /*db verbinden*/
     $server ='localhost';
@@ -27,9 +22,8 @@ $stmt->execute([$m_id]);
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 $nachname = $row['nachname'];
 $vorname = $row ['vorname'];
-$email = $row ['emial'];
+$email = $row ['email'];
 $lehrgang = $row ['lehrgang'];
-
 
 ?>
 
