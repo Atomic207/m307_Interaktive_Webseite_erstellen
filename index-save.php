@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     /*sql befehl vorbereiten*/
     $sql = "INSERT INTO `team-rollen` (`ID`, `Nachname`, `Vorname`, `email`, `Lehrbeginn`) 
-    VALUES (NULL, :nachname, :vorname, :email, :lehrbeginn)";
+    VALUES (NULL, :Nachname, :Vorname, :email, :Lehrbeginn)";
     $stmt = $db->prepare($sql);
 
     /*sql befehl ausführen*/
