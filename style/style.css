@@ -13,7 +13,11 @@
 }
 
 h2 {
-  font-family: 'GeomanistBlack',
+  font-family: 'GeomanistBlack'; 
+}
+
+label {
+ font-family: 'IntroLight'; 
 }
 
 body, html {
