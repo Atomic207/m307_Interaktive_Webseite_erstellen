@@ -2,8 +2,8 @@
 
 $con = mysqli_connect("localhost", "root", "", "praxisarbeit");
 
-if($con){
-    die("connection Error");
+if(!$con){
+    die("Connection Error: " . mysqli_connect_error());
 }
 
 ?>
