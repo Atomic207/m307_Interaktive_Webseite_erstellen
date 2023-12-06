@@ -16,7 +16,7 @@ h2 {
   font-family: 'GeomanistBlack'; 
 }
 
-form, input, option{
+form, input, select, select option {
  font-family: 'IntroLight'; 
 }
 
