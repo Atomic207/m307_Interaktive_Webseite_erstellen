@@ -1,8 +1,8 @@
 <?php
-$nachname = $_POST['nachname'] ?? '';
-$vorname = $_POST['vorname'] ?? '';
+$nachname = $_POST['Nachname'] ?? '';
+$vorname = $_POST['Vorname'] ?? '';
 $email = $_POST['email'] ?? '';
-$lehrgang = $_POST['lehrgang'] ?? '';
+$lehrbeginn = $_POST['Lehrbeginn'] ?? '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     /*db verbinden*/
@@ -14,19 +14,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $db = new PDO(
         "mysql:dbname=$dbname;host=$server",
         $dbuser,
-        $dbpass
+        $dbpass,
+        [ PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]
     );
 
     /*sql befehl vorbereiten*/
-    $sql = "INSERT INTO `team-rollen` (`ID`, `Nachname`, `Vorname`, `email`, `Lehrgang`) VALUES (NULL, :nachname, :vorname, :email, :lehrgang)";
+    $sql = "INSERT INTO `team-rollen` (`ID`, `Nachname`, `Vorname`, `email`, `Lehrbeginn`) 
+    VALUES (NULL, :nachname, :vorname, :email, :lehrbeginn)";
     $stmt = $db->prepare($sql);
 
     /*sql befehl ausführen*/
     $result = $stmt->execute([
-        "nachname" => $nachname,
-        "vorname" => $vorname,
+        "Nachname" => $nachname,
+        "Vorname" => $vorname,
         "email" => $email,
-        "lehrgang" => $lehrgang
+        "Lehrbeginn" => $lehrbeginn
     ]);
     $m_id = $db->lastInsertId(); 
     /*resultat ausgeben*/
