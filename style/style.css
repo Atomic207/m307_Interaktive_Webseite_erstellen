@@ -10,13 +10,13 @@
   src: url(/Assets/introlight.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
-}
+} 
 
 h2 {
   font-family: 'GeomanistBlack'; 
 }
 
-label {
+form {
  font-family: 'IntroLight'; 
 }
 
