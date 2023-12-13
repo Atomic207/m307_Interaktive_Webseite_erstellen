@@ -43,7 +43,7 @@ $result = display_data();
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['Lehrbeginn']; ?></td>
             <td><a href="<?= "edit.php?id=" . $row['ID'] ?>">Edit</a></td> <!-- Edit-Link korrigiert -->
-            <td><a href="<?= "delet.php?id=" . $row['ID'] ?>"</a></td> <!-- Delete-Link korrigiert -->
+            <td><a href="<?= "delet.php?id=" . $row['ID'] ?>">Delet</a></td> <!-- Delete-Link korrigiert -->
           </tr>
         <?php
         }
@@ -52,7 +52,7 @@ $result = display_data();
     </div>
   </div>
 
-    <h2>TEST</h2>
+  
    
     <a href="addnew.php">
       <button class="full-width green-bg">Einen weiteren LB hinzufügen</button>
