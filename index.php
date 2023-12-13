@@ -14,9 +14,11 @@ $result = display_data();
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!-- Der Rest des HTML-Headers bleibt unverändert -->
-  <link rel="stylesheet" href="/style/style.css">
+<head>    
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sucsess</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
@@ -42,8 +44,8 @@ $result = display_data();
             <td><?php echo $row['Nachname']; ?></td>
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['Lehrbeginn']; ?></td>
-            <td><a href="<?= "edit.php?id=" . $row['ID'] ?>">Edit</a></td> <!-- Edit-Link korrigiert -->
-            <td><a href="<?= "delet.php?id=" . $row['ID'] ?>">Delet</a></td> <!-- Delete-Link korrigiert -->
+            <td><a href="#">Edit</a></td> <!-- Edit-Link korrigiert -->
+            <td><a href="#">Delete</a></td> <!-- Delete-Link korrigiert -->
           </tr>
         <?php
         }
@@ -52,7 +54,7 @@ $result = display_data();
     </div>
   </div>
 
-  
+    <h2>TEST</h2>
    
     <a href="addnew.php">
       <button class="full-width green-bg">Einen weiteren LB hinzufügen</button>
