@@ -16,6 +16,7 @@ $result = display_data();
 
 <head>
   <!-- Der Rest des HTML-Headers bleibt unverändert -->
+  <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
