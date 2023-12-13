@@ -14,14 +14,14 @@
         <h2>Anmeldung</h2>
         <form action="index-save.php" method="post">
             <label for="vorname"></label>
-            <input type="text" name="vorname" id="vorname" placeholder="Vorname" class="full-width"><br>
+            <input type="text" name="Vorname" id="vorname" placeholder="Vorname" class="full-width"><br>
             <label for="nachname"></label>
-            <input type="text" name="nachname" id="nachname" placeholder="Nachname" class="full-width"><br>
+            <input type="text" name="Nachname" id="nachname" placeholder="Nachname" class="full-width"><br>
             <label for="email"></label>
             <input type="email" name="email" id="email" placeholder="Email" class="full-width"><br>
             <label for="lehrgang"></label>
 
-            <select name="lehrgang" id="lehrgang" class="full-width">
+            <select name="Lehrbeginn" id="lehrgang" class="full-width">
                 <option value="Lehrgang">Lehrgang</option>
                 <option value="2021">2021</option>
                 <option value="2022">2022</option>

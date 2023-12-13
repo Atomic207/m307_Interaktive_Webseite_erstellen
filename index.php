@@ -42,8 +42,8 @@ $result = display_data();
             <td><?php echo $row['Nachname']; ?></td>
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['Lehrbeginn']; ?></td>
-            <td><a href="#">Edit</a></td> <!-- Edit-Link korrigiert -->
-            <td><a href="#">Delete</a></td> <!-- Delete-Link korrigiert -->
+            <td><a href="<?= "edit.php?id=" . $row['ID'] ?>">Edit</a></td> <!-- Edit-Link korrigiert -->
+            <td><a href="<?= "delet.php?id=" . $row['ID'] ?>"</a></td> <!-- Delete-Link korrigiert -->
           </tr>
         <?php
         }
