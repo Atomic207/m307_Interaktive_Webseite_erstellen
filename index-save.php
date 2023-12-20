@@ -7,9 +7,9 @@ $lehrbeginn = $_POST['Lehrbeginn'] ?? '';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     /*db verbinden*/
     $server = 'localhost';
-    $dbname = 'praxisarbeit';
-    $dbuser = 'root';
-    $dbpass = '';
+    $dbname = 'atheytaz_praxisarbeit';
+    $dbuser = 'db-praxisarbeit-m307';
+    $dbpass = 'praxisarbeit';
 
     $db = new PDO(
         "mysql:dbname=$dbname;host=$server",
